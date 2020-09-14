@@ -35,6 +35,10 @@ body {
   color: #4a4a4a;
 }
 
+.list-item {
+  padding: 0px 5px 13px 0px;
+}
+
 .title {
   color: white;
   font-size: 30px;
@@ -43,9 +47,26 @@ body {
 
 .container-header {
   width: 150px;
-  text-align: center;
+  /* text-align: center; */
 }
 .logo {
   width: 150px;
   padding-top: 10px;
+}
+
+@media all and (min-width: 768px) {
+  .container-header {
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .list-item {
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+  }
+  .title {
+    font-size: 40px;
+  }
 }
