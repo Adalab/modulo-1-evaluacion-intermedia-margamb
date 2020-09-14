@@ -1,5 +1,51 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main {
   background-color: #3cdbc0;
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container-header {
+  width: 150px;
+  text-align: center;
+}
+.logo {
+  width: 150px;
+  padding-top: 10px;
 }
