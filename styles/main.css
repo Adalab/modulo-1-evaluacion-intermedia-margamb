@@ -18,6 +18,15 @@ body {
   align-items: center;
 }
 
+.container-header {
+  width: 150px;
+}
+
+.logo {
+  width: 150px;
+  padding-top: 10px;
+}
+
 .main {
   background-color: #3cdbc0;
   width: 100%;
@@ -46,13 +55,8 @@ body {
   text-align: center;
 }
 
-.container-header {
-  width: 150px;
-}
-
-.logo {
-  width: 150px;
-  padding-top: 10px;
+.title-block {
+  display: block;
 }
 
 @media all and (min-width: 768px) {
